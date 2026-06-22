@@ -7,7 +7,7 @@ pdf_result = md.convert("example.pdf")
 print(pdf_result.markdown)
 
 # Convert a DOCX
-docx_result = md.convert("d:\Download\Germany_Study_Plan_12_Months.docx")
+docx_result = md.convert("example.docx")
 print(docx_result.markdown)
 
 # Convert a PPTX
