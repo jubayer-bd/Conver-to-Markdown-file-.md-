@@ -61,6 +61,16 @@ print(result.markdown)
 
 You can repeat that pattern for any supported file type.
 
+## Installation
+
+Install MarkItDown with only the extras you need for PDF, DOCX, and PPTX support:
+
+```bash
+pip install "markitdown[pdf, docx, pptx]"
+```
+
+If you only need some formats, you can remove the extras you do not use.
+
 ## Requirements
 
 Before running the script, make sure:
